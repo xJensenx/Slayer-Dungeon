@@ -1,0 +1,887 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Component">
+      <UniqueIdentifier>{8297e2e4-26c5-4891-bcad-801068e1579c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Component\System">
+      <UniqueIdentifier>{6052dddd-ac53-4b4c-bc81-683045df84b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameObject">
+      <UniqueIdentifier>{7109687f-f89e-4ed4-a796-268d2a2196bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameObject\System">
+      <UniqueIdentifier>{50fb781a-f4de-4c9e-95a4-ed32b764261f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Scene">
+      <UniqueIdentifier>{6091ae0d-4875-4121-99e6-2140afa6b6ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Scene\System">
+      <UniqueIdentifier>{a3251179-fa7d-4e11-8622-7753be92b3e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System">
+      <UniqueIdentifier>{06c3f0c2-ab86-4842-be7f-0f46867c3049}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Component">
+      <UniqueIdentifier>{740acf3a-d199-41e9-9f95-f459d84cc83e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObject">
+      <UniqueIdentifier>{058ffc5c-f385-417e-bc15-de0251914e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{52b2a350-ed1f-4a3d-9149-d43c82b2019f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System">
+      <UniqueIdentifier>{a8fa7443-2f17-48e6-9fdb-198696116206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Component\IncOfAllComponents">
+      <UniqueIdentifier>{c069332a-7134-49f5-811d-dcc327e1b3c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Audio">
+      <UniqueIdentifier>{c75d9437-9222-40d2-805c-c8937ec29a42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Audio">
+      <UniqueIdentifier>{0132677c-7f69-44ec-8473-6afa77d72552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObject\UI">
+      <UniqueIdentifier>{ad1a778f-2c61-42f2-9fa0-1ab4880a6653}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameObject\UI">
+      <UniqueIdentifier>{bd92264b-9343-4ef1-b696-dcb52cbf470b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Tools">
+      <UniqueIdentifier>{17e74bcf-b9a4-4d2b-b827-41c995ad42b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Tools">
+      <UniqueIdentifier>{52a4d703-cdb9-480e-84af-5862befb6a2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Shader">
+      <UniqueIdentifier>{e48c0825-910e-4b1e-8bc1-de630eeeb4d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Animation">
+      <UniqueIdentifier>{81e2bb4a-f312-4adb-b67c-332408e4b333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Animation">
+      <UniqueIdentifier>{0d43c6dd-92fc-4a53-b4ff-4963c28fbd6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Animation\System">
+      <UniqueIdentifier>{0fca4181-a0bf-48e5-94d0-8aa394245653}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameObject\Boss">
+      <UniqueIdentifier>{f9e8b73c-7ac1-4e06-b0fe-cc3fb5018151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObject\Boss">
+      <UniqueIdentifier>{0206e130-507b-4f86-9465-fa878771c7ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObject\Title">
+      <UniqueIdentifier>{3d4ee927-2747-47a2-933d-7cdfb1bf3035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameObject\Title">
+      <UniqueIdentifier>{d9344a85-f83f-4566-b4ca-483f463fe8d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObject\Minion">
+      <UniqueIdentifier>{d4097c31-e477-491e-bf95-3587d1d1e7b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameObject\Minion">
+      <UniqueIdentifier>{c2040d28-0d5a-4d9f-8fa9-80a4ed35ebe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObject\Loading">
+      <UniqueIdentifier>{e34e1b25-03cf-4b54-ad30-82d0ef5faf76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObject\Camera">
+      <UniqueIdentifier>{f1b5b292-7555-41b2-91a3-882dd6990e35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObject\Player">
+      <UniqueIdentifier>{e1914038-6cca-431b-90cf-2933591ae85f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObject\ForComponent">
+      <UniqueIdentifier>{9710ded4-b12a-4fd7-867e-4272645ae963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameObject\Player">
+      <UniqueIdentifier>{c6dba7c9-ba86-4762-a946-82a437c43630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Animation\StateMachine">
+      <UniqueIdentifier>{c121776a-02a8-4688-b8c5-d9c4da22a69a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObject\Title\TitleSkillUIType">
+      <UniqueIdentifier>{168fb18f-6b55-4a65-85ff-d9384f95949a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObject\PauseMenu">
+      <UniqueIdentifier>{9108ccf9-6ed8-4da9-969d-b8c32a874536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameObject\PauseMenu">
+      <UniqueIdentifier>{a738b37a-d483-46bf-9272-7d9a373aeff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Animation\State">
+      <UniqueIdentifier>{9a0de4d9-c10a-4fc3-be09-83b43867a285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObject\Effect">
+      <UniqueIdentifier>{2e5eb1e4-9edb-4e5e-a942-ba29fbedf86c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameObject\Effect">
+      <UniqueIdentifier>{8e51f405-92cb-46af-bae9-7db01c5f0838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Scene\Tutorial">
+      <UniqueIdentifier>{5380ee0d-b311-428b-8f51-385fc005d270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Tutorial">
+      <UniqueIdentifier>{f692901c-08f1-4d58-97b4-41745ff4be58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObject\Tutorial">
+      <UniqueIdentifier>{14cba0ff-364f-406c-94cd-f5c58893b1aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameObject\Tutorial">
+      <UniqueIdentifier>{093ecaa7-f0a2-4dec-a0e2-c3d24e4446a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObject\Boss\AttackObject">
+      <UniqueIdentifier>{825345f8-a76c-4ab5-bcd0-7f1f5bc7d552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameObject\Boss\AttackObject">
+      <UniqueIdentifier>{bf6d8bb0-19a4-4f5a-b011-018de443e95c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObject\Boss\AttackObject\FireBall">
+      <UniqueIdentifier>{496bcbd8-f63d-4463-a59e-cf870a771da8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObject\Boss\AttackObject\Meteor">
+      <UniqueIdentifier>{eb9506b7-215c-4ca2-bb34-ec04c20a230f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameObject\Boss\AttackObject\FireBall">
+      <UniqueIdentifier>{fabeab0c-e81f-41f1-abbb-939893f8b6e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameObject\Boss\AttackObject\Meteor">
+      <UniqueIdentifier>{abfbebd6-f20f-48c3-ab81-a2537e87b9d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObject\Title\Settings">
+      <UniqueIdentifier>{1f04b3b3-32ea-4a0b-8675-969787d56ee6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameObject\Title\Settings">
+      <UniqueIdentifier>{618e3127-f585-46a4-940a-bc4b9e4704f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameObject\Background">
+      <UniqueIdentifier>{4b484493-e57d-4a8d-8ee9-357c15811062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameObject\Background">
+      <UniqueIdentifier>{d61e4dee-9428-4537-a3c6-3aeb6182e799}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ResultLogo.cpp">
+      <Filter>ソース ファイル\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky.cpp">
+      <Filter>ソース ファイル\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>ソース ファイル\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelRenderer.cpp">
+      <Filter>ソース ファイル\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRenderer.cpp">
+      <Filter>ソース ファイル\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Result.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="manager.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Fade.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBody.cpp">
+      <Filter>ソース ファイル\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="audio.cpp">
+      <Filter>ソース ファイル\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>ソース ファイル\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>ソース ファイル\GameObject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon2D.cpp">
+      <Filter>ソース ファイル\GameObject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsCast.cpp">
+      <Filter>ソース ファイル\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionOBB.cpp">
+      <Filter>ソース ファイル\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="OBB.cpp">
+      <Filter>ソース ファイル\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="EmptyObject.cpp">
+      <Filter>ソース ファイル\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationModel.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimModelManager.cpp">
+      <Filter>ソース ファイル\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Sea.cpp">
+      <Filter>ソース ファイル\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerAnimation.cpp">
+      <Filter>ソース ファイル\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshField.cpp">
+      <Filter>ソース ファイル\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>ソース ファイル\GameObject\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="BossAnimation.cpp">
+      <Filter>ソース ファイル\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugColliderBox.cpp">
+      <Filter>ソース ファイル\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PressContinue.cpp">
+      <Filter>ソース ファイル\GameObject\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleLogo.cpp">
+      <Filter>ソース ファイル\GameObject\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleIsland.cpp">
+      <Filter>ソース ファイル\GameObject\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteComponent.cpp">
+      <Filter>ソース ファイル\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleUI.cpp">
+      <Filter>ソース ファイル\GameObject\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleUIBackground.cpp">
+      <Filter>ソース ファイル\GameObject\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleEvent.cpp">
+      <Filter>ソース ファイル\GameObject\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="TitlePlayerAnimation.cpp">
+      <Filter>ソース ファイル\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleCharacter.cpp">
+      <Filter>ソース ファイル\GameObject\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Minion.cpp">
+      <Filter>ソース ファイル\GameObject\Minion</Filter>
+    </ClCompile>
+    <ClCompile Include="MinionAnimation.cpp">
+      <Filter>ソース ファイル\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CinematicBorder.cpp">
+      <Filter>ソース ファイル\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingLogo.cpp">
+      <Filter>ソース ファイル\GameObject\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHpBar.cpp">
+      <Filter>ソース ファイル\GameObject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>ソース ファイル\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>ソース ファイル\GameObject\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソース ファイル\GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleObj.cpp">
+      <Filter>ソース ファイル\GameObject\ForComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressBar.cpp">
+      <Filter>ソース ファイル\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="LockTarget.cpp">
+      <Filter>ソース ファイル\GameObject\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="MinionHpBar.cpp">
+      <Filter>ソース ファイル\GameObject\Minion</Filter>
+    </ClCompile>
+    <ClCompile Include="BossHpBar.cpp">
+      <Filter>ソース ファイル\GameObject\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI.cpp">
+      <Filter>ソース ファイル\GameObject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMpBar.cpp">
+      <Filter>ソース ファイル\GameObject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCommand.cpp">
+      <Filter>ソース ファイル\GameObject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseCursor.cpp">
+      <Filter>ソース ファイル\GameObject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStatusWarning.cpp">
+      <Filter>ソース ファイル\GameObject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Meteor.cpp">
+      <Filter>ソース ファイル\GameObject\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Sword.cpp">
+      <Filter>ソース ファイル\GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="QTEButton.cpp">
+      <Filter>ソース ファイル\GameObject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="BossBehaviorTree.cpp">
+      <Filter>ソース ファイル\GameObject\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Number.cpp">
+      <Filter>ソース ファイル\GameObject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSkill.cpp">
+      <Filter>ソース ファイル\GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="SwordStatus.cpp">
+      <Filter>ソース ファイル\GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleSkillUIType.cpp">
+      <Filter>ソース ファイル\GameObject\Title\TitleSkillUIType</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleSkillUI.cpp">
+      <Filter>ソース ファイル\GameObject\Title\TitleSkillUIType</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleSkillUIEvent.cpp">
+      <Filter>ソース ファイル\GameObject\Title\TitleSkillUIType</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDpBar.cpp">
+      <Filter>ソース ファイル\GameObject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSkillUI.cpp">
+      <Filter>ソース ファイル\GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseMenuBackground.cpp">
+      <Filter>ソース ファイル\GameObject\PauseMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSkillUIType.cpp">
+      <Filter>ソース ファイル\GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseMenuUI.cpp">
+      <Filter>ソース ファイル\GameObject\PauseMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseMenuUIType.cpp">
+      <Filter>ソース ファイル\GameObject\PauseMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss_JumpAtkEffect.cpp">
+      <Filter>ソース ファイル\GameObject\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="LimitWall.cpp">
+      <Filter>ソース ファイル\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss_AttackWarning.cpp">
+      <Filter>ソース ファイル\GameObject\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss_AttackEvent.cpp">
+      <Filter>ソース ファイル\GameObject\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="BossAnimationState.cpp">
+      <Filter>ソース ファイル\Animation\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>ソース ファイル\GameObject\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectType.cpp">
+      <Filter>ソース ファイル\GameObject\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeSceneType.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MinionBehaviorTree.cpp">
+      <Filter>ソース ファイル\GameObject\Minion</Filter>
+    </ClCompile>
+    <ClCompile Include="Tutorial.cpp">
+      <Filter>ソース ファイル\Scene\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="TutorialState.cpp">
+      <Filter>ソース ファイル\Scene\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="TutorialUI.cpp">
+      <Filter>ソース ファイル\GameObject\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="TutorialUIType.cpp">
+      <Filter>ソース ファイル\GameObject\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerAnimationState.cpp">
+      <Filter>ソース ファイル\Animation\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="SwordTrail.cpp">
+      <Filter>ソース ファイル\GameObject\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackFireBall.cpp">
+      <Filter>ソース ファイル\GameObject\Boss\AttackObject\FireBall</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackMeteor.cpp">
+      <Filter>ソース ファイル\GameObject\Boss\AttackObject\Meteor</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackFireBall_Type.cpp">
+      <Filter>ソース ファイル\GameObject\Boss\AttackObject\FireBall</Filter>
+    </ClCompile>
+    <ClCompile Include="MinionAnimationState.cpp">
+      <Filter>ソース ファイル\Animation\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingUI.cpp">
+      <Filter>ソース ファイル\GameObject\Title\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingUI_Type.cpp">
+      <Filter>ソース ファイル\GameObject\Title\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingAdjustButton.cpp">
+      <Filter>ソース ファイル\GameObject\Title\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="Castle.cpp">
+      <Filter>ソース ファイル\GameObject\Background</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Collision.h">
+      <Filter>ヘッダー ファイル\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteRenderer.h">
+      <Filter>ヘッダー ファイル\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>ヘッダー ファイル\Component\System</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>ヘッダー ファイル\GameObject\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>ヘッダー ファイル\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultLogo.h">
+      <Filter>ヘッダー ファイル\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky.h">
+      <Filter>ヘッダー ファイル\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Result.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>ヘッダー ファイル\Scene\System</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelRenderer.h">
+      <Filter>ヘッダー ファイル\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Fade.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>ヘッダー ファイル\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentInclude.h">
+      <Filter>ヘッダー ファイル\Component\IncOfAllComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="audio.h">
+      <Filter>ヘッダー ファイル\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>ヘッダー ファイル\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon2D.h">
+      <Filter>ヘッダー ファイル\GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>ヘッダー ファイル\GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsCast.h">
+      <Filter>ヘッダー ファイル\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="EmptyObject.h">
+      <Filter>ヘッダー ファイル\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionOBB.h">
+      <Filter>ヘッダー ファイル\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="OBB.h">
+      <Filter>ヘッダー ファイル\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationModel.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimModelManager.h">
+      <Filter>ヘッダー ファイル\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>ヘッダー ファイル\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Sea.h">
+      <Filter>ヘッダー ファイル\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerAnimation.h">
+      <Filter>ヘッダー ファイル\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationManager.h">
+      <Filter>ヘッダー ファイル\Animation\System</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshField.h">
+      <Filter>ヘッダー ファイル\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>ヘッダー ファイル\GameObject\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="BossAnimation.h">
+      <Filter>ヘッダー ファイル\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugColliderBox.h">
+      <Filter>ヘッダー ファイル\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteComponent.h">
+      <Filter>ヘッダー ファイル\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleUI.h">
+      <Filter>ヘッダー ファイル\GameObject\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="PressContinue.h">
+      <Filter>ヘッダー ファイル\GameObject\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleLogo.h">
+      <Filter>ヘッダー ファイル\GameObject\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleIsland.h">
+      <Filter>ヘッダー ファイル\GameObject\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleUIBackground.h">
+      <Filter>ヘッダー ファイル\GameObject\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="TitlePlayerAnimation.h">
+      <Filter>ヘッダー ファイル\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleCharacter.h">
+      <Filter>ヘッダー ファイル\GameObject\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Minion.h">
+      <Filter>ヘッダー ファイル\GameObject\Minion</Filter>
+    </ClInclude>
+    <ClInclude Include="MinionAnimation.h">
+      <Filter>ヘッダー ファイル\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingScene.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CinematicBorder.h">
+      <Filter>ヘッダー ファイル\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingLogo.h">
+      <Filter>ヘッダー ファイル\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHpBar.h">
+      <Filter>ヘッダー ファイル\GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleObj.h">
+      <Filter>ヘッダー ファイル\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="LockTarget.h">
+      <Filter>ヘッダー ファイル\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>ヘッダー ファイル\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressBar.h">
+      <Filter>ヘッダー ファイル\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="MinionHpBar.h">
+      <Filter>ヘッダー ファイル\GameObject\Minion</Filter>
+    </ClInclude>
+    <ClInclude Include="BossHpBar.h">
+      <Filter>ヘッダー ファイル\GameObject\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI.h">
+      <Filter>ヘッダー ファイル\GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMpBar.h">
+      <Filter>ヘッダー ファイル\GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCommand.h">
+      <Filter>ヘッダー ファイル\GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseCursor.h">
+      <Filter>ヘッダー ファイル\GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Meteor.h">
+      <Filter>ヘッダー ファイル\GameObject\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStatusWarning.h">
+      <Filter>ヘッダー ファイル\GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="QTEButton.h">
+      <Filter>ヘッダー ファイル\GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="BossBehaviorTree.h">
+      <Filter>ヘッダー ファイル\GameObject\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Number.h">
+      <Filter>ヘッダー ファイル\GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSkill.h">
+      <Filter>ヘッダー ファイル\GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ヘッダー ファイル\GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Sword.h">
+      <Filter>ヘッダー ファイル\GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>ヘッダー ファイル\Animation\System</Filter>
+    </ClInclude>
+    <ClInclude Include="SwordStatus.h">
+      <Filter>ヘッダー ファイル\GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDpBar.h">
+      <Filter>ヘッダー ファイル\GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleSkillUI.h">
+      <Filter>ヘッダー ファイル\GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleSkillUIEvent.h">
+      <Filter>ヘッダー ファイル\GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleSkillUIType.h">
+      <Filter>ヘッダー ファイル\GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseMenuBackground.h">
+      <Filter>ヘッダー ファイル\GameObject\PauseMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseMenuUI.h">
+      <Filter>ヘッダー ファイル\GameObject\PauseMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseMenuUIType.h">
+      <Filter>ヘッダー ファイル\GameObject\PauseMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSkillUI.h">
+      <Filter>ヘッダー ファイル\GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSkillUIType.h">
+      <Filter>ヘッダー ファイル\GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss_JumpAtkEffect.h">
+      <Filter>ヘッダー ファイル\GameObject\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="LimitWall.h">
+      <Filter>ヘッダー ファイル\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleEvent.h">
+      <Filter>ヘッダー ファイル\GameObject\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss_AttackWarning.h">
+      <Filter>ヘッダー ファイル\GameObject\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss_AttackEvent.h">
+      <Filter>ヘッダー ファイル\GameObject\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="BossAnimationState.h">
+      <Filter>ヘッダー ファイル\Animation\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>ヘッダー ファイル\GameObject\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectType.h">
+      <Filter>ヘッダー ファイル\GameObject\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeSceneType.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MinionBehaviorTree.h">
+      <Filter>ヘッダー ファイル\GameObject\Minion</Filter>
+    </ClInclude>
+    <ClInclude Include="Tutorial.h">
+      <Filter>ヘッダー ファイル\Scene\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="TutorialState.h">
+      <Filter>ヘッダー ファイル\Scene\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="TutorialUI.h">
+      <Filter>ヘッダー ファイル\GameObject\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="TutorialUIType.h">
+      <Filter>ヘッダー ファイル\GameObject\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerAnimationState.h">
+      <Filter>ヘッダー ファイル\Animation\State</Filter>
+    </ClInclude>
+    <ClInclude Include="SwordTrail.h">
+      <Filter>ヘッダー ファイル\GameObject\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackFireBall.h">
+      <Filter>ヘッダー ファイル\GameObject\Boss\AttackObject\FireBall</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackMeteor.h">
+      <Filter>ヘッダー ファイル\GameObject\Boss\AttackObject\Meteor</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackFireBall_Type.h">
+      <Filter>ヘッダー ファイル\GameObject\Boss\AttackObject\FireBall</Filter>
+    </ClInclude>
+    <ClInclude Include="MinionAnimationState.h">
+      <Filter>ヘッダー ファイル\Animation\State</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingUI.h">
+      <Filter>ヘッダー ファイル\GameObject\Title\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingUI_Type.h">
+      <Filter>ヘッダー ファイル\GameObject\Title\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingAdjustButton.h">
+      <Filter>ヘッダー ファイル\GameObject\Title\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Castle.h">
+      <Filter>ヘッダー ファイル\GameObject\Background</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="hlsl\BlinnPhongLightingPS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\BlinnPhongLightingVS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\DepthShadowMappingPS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\DepthShadowMappingVS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\SeaShaderPS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\SeaShaderVS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\unlitTexturePS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\unlitTextureVS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\vertexLightingPS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\vertexLightingVS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\common.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\fogShaderVS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\fogShaderPS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\HpBarShaderVS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\HpBarShaderPS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\toonPS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\toonVS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\envMappingPS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\envMappingVS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\ParticleEnvPS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\ParticleEnvVS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\RimLightingPS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\RimLightingVS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\TitleGroundPS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\TitleGroundVS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\PlayerPS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\PlayerVS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\FireBallPS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\FireBallVS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

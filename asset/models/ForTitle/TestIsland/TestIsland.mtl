@@ -1,0 +1,58 @@
+# Blender MTL File: 'TestIsland.blend'
+# Material Count: 5
+
+newmtl Grond
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.225297 0.507069 0.049393
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd textures\\Grond_Base_Color.png
+
+newmtl Stones
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.225297 0.507069 0.049393
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd textures\\Stones_Base_Color.png
+map_Ke textures\\Stones_Emissive.png
+
+newmtl Tree
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.225297 0.507069 0.049393
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd textures\\Tree_Base_Color.png
+
+newmtl Water
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.225297 0.507069 0.049393
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd textures\\Bush,_water,_fish_Base_Color.png
+
+newmtl Woosh.012
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.049546 0.800000 0.627274
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd textures\\Portal_02.png
